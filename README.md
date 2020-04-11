@@ -16,10 +16,10 @@ NRDBM supports [postgres](https://www.npmjs.com/package/pg) and [mysql2](https:/
 
 ## Current & Future Features
 The package is consistently getting enhanced and updated. Your contributions are always welcome. Here are the functionality that are developed/being developed:
-- **Insert/Select/Update/Delete** Data from **Postgresql** and **MySQL** with complex nested where conditions.
-- Create **class passed models** for your tables.
+- **Insert/Select/Update/Delete** data from **Postgresql** and **MySQL** with complex nested where conditions.
+- Create **class based models** for your tables.
 - Specify certain fields to be **selectable** by default instead of bringing everything in `SELECT *`.
-- Allow **HTML data** to be added in certain fields.
+- Allow **HTML tags** to be stored in database for certain fields.
 - Extract data in various ways: **list, select one column, first item, slicing, chunking, pagination**.
 - Apply **joins** between tables.
 - **Soon**: Event Handling. Ex: onInsert(), onUpdate(), onSelect() functions within model classes.
